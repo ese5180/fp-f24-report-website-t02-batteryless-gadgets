@@ -153,12 +153,18 @@ For multiple devives or fleet management, here is the overall system we use:
 
 - We also should make simplified prototype or functionalities of complex modules like the energy harvesting module. It is challenging to make a custom PCB to efficiently use the generated charges to power the system so making a simplified version to show fundamental functionalities should be a good start.
 
-## 9. Would you change your system design after this development cycle? For example:
+## 9. Would you change your system design after this development cycle? 
+
 a. Was your wireless communication protocol the correct choice?
+
+- BLE (Bluetooth Low Energy) is an excellent choice for the Smart Shoes project because it consumes minimal power, enabling extended battery life, which aligns with the piezoelectric charging innovation. 
+
+- Additionally, BLE provides sufficient data throughput for transmitting sensor data (e.g., IMU data, pressure) efficiently and securely, while being widely compatible with smartphones for seamless integration with the paired app.
 
 b. Would other sensors or actuators work better?
 
-c. Did your target market want something different?
+- No, the selected sensors work well. It is worth noting that the BMI270 IMU is an excellent choice and a great fit for smart health-tracking devices because it provides multiple types of data in addition to 6-axis motion, such as step counts, temperature, and movement states (running, walking, standing).
+
 
 ## 10. Images of MVP device
 
@@ -184,5 +190,15 @@ The image of MVP device is shown below.
 
 ### 11.b. Memfault integration features
 
+- This video shows Memfault integration features: [Link video](https://drive.google.com/file/d/1fQ9_-w_5nCxzl9DEccu8E78kCr0oCZEr/view?usp=sharing)
+
+    - This is a payload content showing metrics sent to Memfault. For instance, battery_soc_pct reflects the change in the battery level given the use of thin film sensors.
+        <br>
+
+        <img src="images/payload.png" alt="Fleet Image" width="500"/>
+
+        <br>
+
+- This video shows 2 devices working at the same time: [Link video](https://drive.google.com/file/d/1_KFAcxE6k_iEY0qE7J5oxXS-w5RNAS_k/view?usp=sharing)
 
 
