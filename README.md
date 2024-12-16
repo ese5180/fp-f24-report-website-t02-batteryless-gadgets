@@ -1,8 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/KSk4F6vj)
 
 # Batteryless Gadgets (Smart Shoes)
 
 
+| Team Member Name | Email Address       |
+|------------------|---------------------|
+| Truong (Winston) Nguyen   | truongng@seas.upenn.edu           |
+| Mark Xia         | xuyaoxia@seas.upenn.edu          |
 
 ## 1. Product Overview
 
