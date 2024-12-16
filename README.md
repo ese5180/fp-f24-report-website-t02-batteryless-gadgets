@@ -125,16 +125,16 @@ For multiple devives or fleet management, here is the overall system we use:
 
 #### Sale pricing model:
 
-- one-time purchase: $300 - $350 for a pair of shoes with embedded sensor module 
+- One-time purchase: $300 - $350 for a pair of shoes with embedded sensor module 
 
-- subscription model for add-on services: extra annual fees (~$50-$70) for customized movement recommendation by AI/expert and sensor module replacement
+- Subscription model for add-on services: extra annual fees (~$50-$70) for customized movement recommendation by AI/expert and sensor module replacement
 
 
 ## 6. What parts of your project would you consider a success? Why?
 
 - Reduce the number of sensors usage: initially we used a separate sensor for temprature measurement; however, BMI270 IMU is a highly customized module for health tracking device. It also includes step counts, temperature, movement mode tracking so we only need to use this one sensor module. We can configure I2C to read data from BMI270 IMU using standard sensor API from Zephyr.
 
-- Harvest energy from the thin film sensors: although it is mechanically to make a shoes demo with thin films sensors embedded, we use rectifier circuit and an LED to show the capability of 2 thin films to generate enough electricity to light up an LED with a voltage ar around 3.3V - 4V.
+- Harvest energy from the thin film sensors: although it is mechanically to make a shoes demo with thin films sensors embedded, we use rectifier circuit and an LED to show the capability of 2 thin films to generate enough electricity to light up an LED with a voltage ar around 3V - 3.3V.
 
 - Configure Memfault diagnostics service and send metrics via BLE: we are able to configure nRF52840 DKs to send device's key metrics to Memfault dashboard via BLE (using nRF Memfault as a gateway).
 
@@ -159,10 +159,27 @@ c. Did your target market want something different?
 
 ## 10. Images of MVP device
 
+The image of MVP device is shown below.
+<br>
+
+<img src="images/deviceSetup.png" alt="Fleet Image" width="500"/>
+
+<br>
+
 ## 11. Video demonstrating
 
 ### 11.a. Core Product Function
 
+- This video demonstrates how the piezoelectric thin films can generate electric charges to power the system when the wearers bend the films: [Link video](https://drive.google.com/file/d/1CPHzt_Gev97sNJQHjCSZ0H0-o_8ZIVsV/view?usp=sharing).
+
+    As shown in the video, as we bend thin film sensors:
+    - the generated voltage increases to around 3.3V.
+
+    - the generated voltage can power up the LED.
+
+- This video shows we can successfully read 6-axis motion data from BMI270 IMU via I2C. Based on acceleration and rotational speed, we can calculate thr pitch and roll angle (rotating angles around X and Y axis): [Link video](https://drive.google.com/file/d/1McY1eZM6CfSS_6qaY8T28TQjX3qjfxI0/view?usp=sharing).
+
 ### 11.b. Memfault integration features
+
 
 
