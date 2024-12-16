@@ -1,0 +1,11 @@
+// To get started, press Ctrl+Space to bring up the completion menu and view the available nodes.
+// For more help, browse the DeviceTree documentation at https://docs.zephyrproject.org/latest/guides/dts/index.html
+
+&arduino_i2c {
+	status = "okay";
+
+	bmi270@68 {
+		compatible = "bosch,bmi270";
+		reg = <0x68>;
+	};
+};
