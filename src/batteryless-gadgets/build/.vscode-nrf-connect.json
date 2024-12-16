@@ -1,0 +1,16 @@
+{
+  "board": "nrf52840dk/nrf52840",
+  "boardRevision": "",
+  "boardDir": "/Users/mark/zephyr/boards/nordic/nrf52840dk",
+  "shouldBuild": true,
+  "optimizations": "none",
+  "cmakeArgs": [],
+  "confFiles": [
+    "prj_52840.conf"
+  ],
+  "buildDirectory": "build",
+  "kconfigFragments": [],
+  "snippets": [],
+  "dtcOverlays": [],
+  "extraDtcOverlays": []
+}

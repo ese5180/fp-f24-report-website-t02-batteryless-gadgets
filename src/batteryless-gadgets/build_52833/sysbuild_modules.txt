@@ -1,0 +1,2 @@
+"nrf":"/Users/mark/nrf":"/Users/mark/nrf/sysbuild"
+"mcuboot":"/Users/mark/bootloader/mcuboot":"/Users/mark/bootloader/mcuboot/boot/zephyr/sysbuild"

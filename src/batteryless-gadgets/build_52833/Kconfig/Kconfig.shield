@@ -1,0 +1,2 @@
+osource "/Users/mark/memfault_ble_demo/boards/shields/*/Kconfig.shield"
+osource "/Users/mark/nrf/boards/shields/*/Kconfig.shield"

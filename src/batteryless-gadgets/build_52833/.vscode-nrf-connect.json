@@ -1,0 +1,16 @@
+{
+  "board": "nrf52833dk/nrf52833",
+  "boardRevision": "",
+  "boardDir": "/Users/mark/zephyr/boards/nordic/nrf52833dk",
+  "shouldBuild": true,
+  "optimizations": "none",
+  "cmakeArgs": [],
+  "confFiles": [
+    "prj_52833.conf"
+  ],
+  "buildDirectory": "build_52833",
+  "kconfigFragments": [],
+  "snippets": [],
+  "dtcOverlays": [],
+  "extraDtcOverlays": []
+}

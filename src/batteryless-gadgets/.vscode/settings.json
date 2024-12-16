@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "bluetooth.h": "c",
+        "kernel.h": "c",
+        "bas.h": "c",
+        "core.h": "c"
+    }
+}
