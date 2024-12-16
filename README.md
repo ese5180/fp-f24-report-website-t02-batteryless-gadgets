@@ -34,11 +34,13 @@
 
 ### 3.1. Security Requirements:
 
-SEC 01: User data shall not be easily tracked from transactions. All data transmissions will be anonymized to prevent tracking of individual users.
+SEC 01: User data shall not be easily tracked from transactions. All data transmissions will be anonymized to prevent tracking of individual users. 
 
 SEC 02: All data transmitted over BLE between the nRF52840 sensor module and the phone application shall use BLE encryption to prevent interception.
 
 SEC 03: The system shall provide users with the ability to delete their data. Users can request data deletion through the smartphone app, and the system will securely erase the data from both local and cloud storage.
+
+Note: We have implemented security using hashing, signature and encryption but due to our system's low power nature, the BLE's short transmission range and that our data isn't private enough, we didn't incorporate software solutions to the security. Future improvements could include low power security hardware modules.
 
 ### 3.2. Hardware Requirements:
 
